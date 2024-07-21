@@ -9,3 +9,6 @@ for i in range(len(ListA)):
         print(min(ListA))
         ListA.remove(min(ListA))
         i += 1
+    elif min(ListA) not in ListB:
+        ListA.remove(min(ListA))
+        i += 1
